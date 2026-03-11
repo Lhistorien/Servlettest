@@ -25,7 +25,7 @@ public class MySQLConnectionFactory {
         String dburl = "jdbc:mysql://127.0.0.1:3306/testservlet";
         Connection c = null;
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             c = DriverManager.getConnection(dburl, "root", null);
         } catch (ClassNotFoundException cnfe) {
             System.out.println("Error: " + cnfe.getMessage());

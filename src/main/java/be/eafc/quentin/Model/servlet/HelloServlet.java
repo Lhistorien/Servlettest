@@ -1,4 +1,4 @@
-package com.example.testservlet;
+package be.eafc.quentin.Model.servlet;
 
 import java.io.*;
 
